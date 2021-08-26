@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+a {
+    text-decoration: none;
+}
+
+.comparsion_img {
+    margin-inline: 1%;
+}
+
+.comparsion_products-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: ". . .";
+    border-radius: 5px;
+}
+
+.comparsion_product-img {
+    padding: 10%;
+}
+
+.comparsion_products-buy {
+    text-align: end;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.comparsion_products-info {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr;
+}
+
+.comparison_product-button,
+.comparison_product-button-all {
+    background: #212121;
+    min-width: 150px;
+    border-radius: 11px;
+    color: #ff723c;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.comparison_product-button {
+    display: none;
+}
+
+.comparsion_product-info-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: contents;
+}
+
+.copmparsion_rewiew-text {
+    width: 100%;
+    background: #fff;
+    border-radius: 11px;
+}
